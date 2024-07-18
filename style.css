@@ -19,10 +19,10 @@
 .header-section {
 
     background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%);
-    background-color: #5a5959; 
+    background-color: #5a5959;
     height: 680px;
-           
-    margin: 0px auto 30px auto;
+
+    margin: 0px auto 0px auto;
 }
 
 nav {
@@ -68,7 +68,7 @@ nav ul li button {
 }
 
 nav ul li {
-    
+
     border: none;
     border-radius: 15px;
     padding: 5px;
@@ -81,9 +81,8 @@ nav ul li {
     height: 500px;
     margin: auto;
     padding-top: 10%;
-   display: flex;
-   gap: 200px;
-   border: 2px solid yellow;
+    display: flex;
+    gap: 200px;
 }
 
 .hero-title {
@@ -120,7 +119,7 @@ nav ul li {
     margin-right: 20px;
 }
 
-.second-btn{
+.second-btn {
     background-color: transparent;
     border: 2px solid white;
     border-radius: 30px;
@@ -135,10 +134,10 @@ nav ul li {
 .hero-img {
     width: 349px;
     height: 580px;
-    border: 2px solid gold;
+
     background-image: url(images/Images\ 2.png);
     position: relative;
-    bottom: 22%;
+    bottom: 21.2%;
 }
 
 
@@ -155,33 +154,35 @@ nav ul li {
     bottom: 30%;
     backdrop-filter: blur(20px);
     background: rgba(48, 48, 48, 0.54);
-   }
+}
 
-    .circle {
-      width: 30px;
-      height: 30px;
-      background-color: #E6533C;
-      border: none;
-      border-radius: 50%;
-    }
-    .three-fifty {
-        font-size: 24px;
-        font-weight: 900;
-    }
-    .tutorial-text {
-        font-size: 16px;
-        font-weight: 400;
-        color: white;
-        gap: 10px;
-    }
+.circle {
+    width: 30px;
+    height: 30px;
+    background-color: #E6533C;
+    border: none;
+    border-radius: 50%;
+}
 
-    .three-fifty {
-        color: white;
-    }
+.three-fifty {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.tutorial-text {
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    gap: 10px;
+}
+
+.three-fifty {
+    color: white;
+}
 
 
-    .workout {
-        width: 150px;
+.workout {
+    width: 150px;
     border-radius: 12px;
     display: flex;
     align-items: center;
@@ -192,10 +193,167 @@ nav ul li {
     bottom: 80%;
     backdrop-filter: blur(0px);
     background: rgba(48, 48, 48, 0.54);
-    }
+}
 
 /* main section */
 
+/* habit-section */
+
+.second-section {
+    background-color: black;
+}
+
+.change-habit-text {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    color: white;
+    margin-bottom: 50px;
+    padding-top: 70px;
+}
+
+.change-habit-text h1 {
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.change-habit-text p {
+
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+}
+
+.four-habits {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+
+
+.habit-one {
+    width: 231px;
+    height: 274px;
+    border: 2px solid yellow;
+    color: white;
+    text-align: center;
+}
+
+.main-circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.habit-one h5 {
+    margin-bottom: 4px;
+    font-size: 1.1rem;
+}
+
+.habit-one-circle {
+    width: 180px;
+    height: 180px;
+    background-image: url(images/image\ 3.png);
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.habit-one p {
+    font-size: .8rem;
+    color: #FFFFFF80;
+}
+
+.habit-two {
+    width: 231px;
+    height: 274px;
+    border: 2px solid yellow;
+    color: white;
+    text-align: center;
+}
+
+.habit-two-circle {
+    width: 180px;
+    height: 180px;
+    background-image: url(images/image\ 2.png);
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+
+.habit-two {
+    width: 231px;
+    height: 274px;
+    border: 2px solid yellow;
+}
+
+.habit-two h5 {
+    margin-bottom: 4px;
+    font-size: 1.1rem;
+    color: white;
+}
+
+.habit-two p {
+    font-size: .8rem;
+    color: #FFFFFF80;
+}
+
+.habit-three {
+    width: 231px;
+    height: 274px;
+    border: 2px solid yellow;
+    text-align: center;
+}
+
+.habit-three-circle {
+    width: 180px;
+    height: 180px;
+    background-image: url(images/image\ 4.png);
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.habit-three h5 {
+    margin-bottom: 4px;
+    font-size: 1.1rem;
+    color: white;
+}
+
+.habit-three p {
+    font-size: .8rem;
+    color: #FFFFFF80;
+}
+
+
+.habit-four {
+    width: 231px;
+    height: 274px;
+    border: 2px solid yellow;
+    text-align: center;
+}
+
+.habit-four-circle {
+    width: 180px;
+    height: 180px;
+    background-image: url(images/image\ 5.png);
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.habit-four h5 {
+    margin-bottom: 4px;
+    font-size: 1.1rem;
+    color: white;
+}
+
+.habit-four p {
+    font-size: .8rem;
+    color: #FFFFFF80;
+}
 
 
 
@@ -206,6 +364,7 @@ nav ul li {
     nav {
         width: 40%;
     }
+
     .hero-container {
         flex-direction: column;
     }
