@@ -199,6 +199,10 @@ nav ul li {
 
 /* habit-section */
 
+.sections {
+    background-color: black;
+}
+
 .second-section {
     background-color: black;
 }
@@ -239,7 +243,7 @@ nav ul li {
 .habit-one {
     width: 231px;
     height: 274px;
-    border: 2px solid yellow;
+    
     color: white;
     text-align: center;
 }
@@ -271,7 +275,7 @@ nav ul li {
 .habit-two {
     width: 231px;
     height: 274px;
-    border: 2px solid yellow;
+    
     color: white;
     text-align: center;
 }
@@ -288,7 +292,7 @@ nav ul li {
 .habit-two {
     width: 231px;
     height: 274px;
-    border: 2px solid yellow;
+    
 }
 
 .habit-two h5 {
@@ -305,7 +309,7 @@ nav ul li {
 .habit-three {
     width: 231px;
     height: 274px;
-    border: 2px solid yellow;
+   
     text-align: center;
 }
 
@@ -332,7 +336,7 @@ nav ul li {
 .habit-four {
     width: 231px;
     height: 274px;
-    border: 2px solid yellow;
+    
     text-align: center;
 }
 
@@ -354,6 +358,105 @@ nav ul li {
     font-size: .8rem;
     color: #FFFFFF80;
 }
+
+
+/* third-section */
+
+.third-section {
+    background-color: black;
+}
+
+.run-extra-section {
+    color: white;
+    height: 450px;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    width: 90%;
+    margin: auto;
+    
+}
+
+
+.outside-box {
+    background-color: #222222;
+    border-radius: 18px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-top: 70px;
+}
+
+.third-section-text-btn h1 {
+    font-family: Inter;
+    font-size: 2.1rem;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.third-section-text-btn p {
+    margin-bottom: 30px;
+    font-family: Inter;
+    color: #FFFFFF80;
+}
+
+.third-section-text-btn button {
+    background-color: #E6533C;
+    border: none;
+    border-radius: 30px;
+    width: 215px;
+    height: 54px;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.run-extra-section .img {
+    width: 366px;
+    height: 300px;
+    background-image: url(images/run.jpg);
+    background-size: cover;
+    border-radius: 18px;
+    
+}
+
+
+/* fourth-section */
+
+.fourth-section {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.fourth-section-text h1 {
+    font-family: Inter;
+    font-size: 2rem;
+    font-weight: 900;
+    margin-bottom: 16px;
+}
+
+.fourth-section-text p {
+    margin-bottom: 30px;
+    font-family: Inter;
+    color: #FFFFFF80;
+}
+
+
+
+
+
+
+
+
 
 
 
