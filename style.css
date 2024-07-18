@@ -19,9 +19,9 @@
 .header-section {
 
     background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%);
-    background-color: #5a5959;
-    height: 715px;
-
+    background-color: #5a5959; 
+    height: 680px;
+           
     margin: 0px auto 30px auto;
 }
 
@@ -36,10 +36,10 @@ nav {
 
 nav ul {
     display: flex;
-    border: 1px solid red;
+    border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 15px;
     display: flex;
-    gap: 20px;
+    gap: 30px;
     padding: 3px;
     font-size: 0.8rem;
     font-weight: 400;
@@ -53,28 +53,37 @@ nav ul {
 
 nav ul li {
     list-style: none;
-    padding: 5px;
+    padding: 2px;
     color: white;
+    display: flex;
+    align-items: center;
 }
 
-nav ul li span {
+nav ul li button {
     background-color: #E6533C;
+    color: white;
     border: none;
     border-radius: 15px;
-    padding: 5px;
+    padding: 4px 8px 4px 8px;
 }
 
 nav ul li {
-    background-color: #E6533C;
+    
     border: none;
     border-radius: 15px;
     padding: 5px;
 }
 
+/* hero section */
+
 .hero-container {
     width: 80%;
+    height: 500px;
     margin: auto;
     padding-top: 10%;
+   display: flex;
+   gap: 200px;
+   border: 2px solid yellow;
 }
 
 .hero-title {
@@ -97,7 +106,6 @@ nav ul li {
     font-weight: 400;
     margin-bottom: 25px;
 }
-
 
 .first-btn {
     background-color: #E6533C;
@@ -124,6 +132,67 @@ nav ul li {
     font-weight: 600;
 }
 
+.hero-img {
+    width: 349px;
+    height: 580px;
+    border: 2px solid gold;
+    background-image: url(images/Images\ 2.png);
+    position: relative;
+    bottom: 22%;
+}
+
+
+/* tutorial buttons */
+.tutorial {
+    width: 150px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+    position: relative;
+    left: 59%;
+    bottom: 30%;
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+   }
+
+    .circle {
+      width: 30px;
+      height: 30px;
+      background-color: #E6533C;
+      border: none;
+      border-radius: 50%;
+    }
+    .three-fifty {
+        font-size: 24px;
+        font-weight: 900;
+    }
+    .tutorial-text {
+        font-size: 16px;
+        font-weight: 400;
+        color: white;
+        gap: 10px;
+    }
+
+    .three-fifty {
+        color: white;
+    }
+
+
+    .workout {
+        width: 150px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+    position: relative;
+    left: 80%;
+    bottom: 80%;
+    backdrop-filter: blur(0px);
+    background: rgba(48, 48, 48, 0.54);
+    }
 
 /* main section */
 
@@ -134,7 +203,10 @@ nav ul li {
 /* responsive media queries */
 
 @media screen and (max-width: 576px) {
-    nav ul li {
-        display: none;
+    nav {
+        width: 40%;
+    }
+    .hero-container {
+        flex-direction: column;
     }
 }
