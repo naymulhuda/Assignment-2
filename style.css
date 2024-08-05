@@ -268,3 +268,120 @@ nav ul li button {
     font-size: 0.9rem;
     font-weight: 400;
 }
+.third-section-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.third-section {
+    width: 1060px;
+    height: 371px;
+    border-radius: 18px;
+    background-color: #222222;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.third-section .details {
+    width: 443px;
+    height: 290px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.third-section .details h1 {
+    font-family: Inter;
+    font-size: 2.5rem;
+    font-weight: 900;
+    margin-bottom: 15px;
+}
+
+.third-section .details p {
+    width: 90%;
+    font-family: Inter;
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 30px;
+}
+
+.third-section .details button {
+    width: 224px;
+    height: 54px;
+    border: none;
+    border-radius: 42px;
+    background-color: #E6533C;
+    font-family: Inter;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: white;
+}
+
+.third-section .img {
+    width: 366px;
+    height: 312px;
+    border-radius: 18px;
+    background-image: url(images/run.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.extra-section-container {
+        
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+.extra-section-content {
+    width: 950px;
+    height: 371px;
+    border: 2px solid #dd442c;
+    border-radius: 18px;
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+    padding-right: 40px;
+    gap: 100px;
+}
+
+.extra-section-content .img {
+    width: 100%;
+    height: 312px;
+    border-radius: 18px;
+    background-image: url(images/nutrition.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.extra-section-content .text-btn {
+    color: white;
+}
+
+.extra-section-content h2 {
+    font-family: Inter;
+    font-size: 2.5rem;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+.extra-section-content p {
+    width: 80%;
+    margin-bottom: 35px;
+    font-family: Inter;
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 30px;
+}
+.extra-section-content button {
+    width: 224px;
+    height: 54px;
+    border: none;
+    border-radius: 42px;
+    background-color: #dd442c;
+    font-family: Inter;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: white;
+}
