@@ -408,3 +408,159 @@ nav ul li button {
     width: 630px;
     
 }
+
+.fifth-section-container {
+    height: 487px;
+    background: rgb(34, 34, 34);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 120px;
+}
+
+.chart h2 {
+    color: white;
+    margin-bottom: 50px;
+    font-size: 28px;
+}
+
+table {
+    border-collapse: collapse;
+    margin-bottom: 100px;
+}
+
+td {
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 10px 30px;
+    color: rgba(255, 255, 255, 0.5);
+}
+th {
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 10px 30px;
+    text-align: left;
+    color: white;
+}
+
+.calculation h2 {
+    margin-left: 10px;
+    color: white;
+    margin-bottom: 14px;
+    font-size: 28px;
+}
+.calculation p {
+    color: rgba(255, 255, 255, 0.6);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    width: 630px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+}
+
+.two-input input {
+    width: 275px;
+    height: 2.1rem; 
+    padding: 5px 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    color: rgba(255, 255, 255, 0.6);
+    background: rgba(255, 255, 255, 0.1);
+}
+::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+}
+.two-input select {
+    padding: 10px 10px;
+    width: 298px;
+    height: 3rem;
+    color: rgba(255, 255, 255, 0.6);
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.1);
+}
+.last-option {
+    display: flex;
+    flex-direction: column;
+}
+.last-option select {
+    padding: 10px 10px;
+    color: rgba(255, 255, 255, 0.6);
+    width: 61px;
+    height: 3rem;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.1);
+}
+.calculation-form .submit {
+    width: 224px;
+    height: 54px;
+    background-color: #E6533C;
+    color: white;
+    margin-left: 10px;
+    margin-top: 20px;
+    border-radius: 50px;
+    border: none;
+}
+footer {
+    margin-top: 80px;
+    height: 489px;
+    background: rgba(255, 255, 255, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-content {
+    width: 1059px;
+    margin-bottom: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.footer-content .footer-logo {
+    width: 200px;
+}
+.footer-logo h2 {
+    font-family: Inter;
+    font-size: 60px;
+    color: #E6533C;
+    margin-bottom: 20px;
+}
+
+.footer-logo p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.8rem;
+    width: 190%;
+}
+
+.list-one h3{
+    color: white;
+    margin-bottom: 20px;
+}
+.list-one p {
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 12px;
+}
+
+.list-two h3{
+    color: white;
+    margin-bottom: 20px;
+}
+.list-two p {
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 12px;
+}
+
+footer hr {
+    width: 1060px;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    margin-bottom: 30px;
+}
+footer p {
+    color: rgba(255, 255, 255, 0.5);
+}
