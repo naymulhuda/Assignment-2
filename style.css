@@ -201,3 +201,70 @@ nav ul li button {
     font-size: 14px;
     font-weight: 400;
 }
+
+.second-section {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 100px;
+}
+
+.habit-one {
+    width: 231px;
+    height: 270px;
+    color: white;
+    text-align: center;
+}
+
+
+.habit-img {
+    width: 231px;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.habit-img .main-img-one {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background-image: url(images/image\ 3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.habit-img .main-img-two {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background-image: url(images/image\ 2.png);
+}
+.habit-img .main-img-three {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background-image: url(images/image\ 4.png);
+}
+
+.habit-img .main-img-four {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background-image: url(images/image\ 5.png);
+}
+
+.habit-one h3 {
+    font-family: Inter;
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.habit-one p {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 0.9rem;
+    font-weight: 400;
+}
