@@ -30,8 +30,6 @@ nav {
     padding: 0px 10% 0px 6%;
     gap: 550px;
     margin: 0px auto;
-    border: 2px solid yellow;
-
 }
 
 nav ul {
@@ -88,11 +86,18 @@ nav ul li button {
     font-weight: 900;
     color: white;
     margin-top: 100px;
+    line-height: 70px;
 }
 
 .shape {
     font-family: Miama;
-    font-size: 56px;
+    font-size: 120px;
+    font-weight: 100;
+}
+.shape {
+    font-family: Miama;
+    font-size: 120px;
+    font-weight: 100;
 }
 
 .hero-para {
@@ -101,6 +106,7 @@ nav ul li button {
     font-size: 16px;
     font-weight: 400;
     margin-bottom: 30px;
+    line-height: 25px;
 }
 
 .first-btn {
@@ -242,6 +248,7 @@ nav ul li button {
     border-radius: 50%;
     background-image: url(images/image\ 2.png);
 }
+
 .habit-img .main-img-three {
     width: 180px;
     height: 180px;
@@ -262,12 +269,14 @@ nav ul li button {
     font-weight: 700;
     margin-bottom: 5px;
 }
+
 .habit-one p {
     color: rgba(255, 255, 255, 0.5);
     font-family: Inter;
     font-size: 0.9rem;
     font-weight: 400;
 }
+
 .third-section-container {
     display: flex;
     justify-content: center;
@@ -283,8 +292,9 @@ nav ul li button {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    
+
 }
+
 .third-section .details {
     width: 443px;
     height: 290px;
@@ -292,6 +302,7 @@ nav ul li button {
     flex-direction: column;
     justify-content: center;
 }
+
 .third-section .details h1 {
     font-family: Inter;
     font-size: 2.5rem;
@@ -330,11 +341,12 @@ nav ul li button {
 }
 
 .extra-section-container {
-        
+
     display: flex;
     justify-content: center;
     margin-bottom: 80px;
 }
+
 .extra-section-content {
     width: 950px;
     height: 371px;
@@ -355,6 +367,7 @@ nav ul li button {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .extra-section-content .text-btn {
     color: white;
 }
@@ -365,6 +378,7 @@ nav ul li button {
     font-weight: 900;
     margin-bottom: 20px;
 }
+
 .extra-section-content p {
     width: 80%;
     margin-bottom: 35px;
@@ -374,6 +388,7 @@ nav ul li button {
     color: rgba(255, 255, 255, 0.5);
     margin-bottom: 30px;
 }
+
 .extra-section-content button {
     width: 224px;
     height: 54px;
@@ -393,7 +408,7 @@ nav ul li button {
     margin-bottom: 80px;
 }
 
-.fourth-section-content h1{
+.fourth-section-content h1 {
     margin-bottom: 10px;
     font-family: Inter;
     font-size: 2.2rem;
@@ -406,7 +421,7 @@ nav ul li button {
     font-size: 14px;
     font-weight: 400;
     width: 630px;
-    
+
 }
 
 .fifth-section-container {
@@ -416,6 +431,7 @@ nav ul li button {
     align-items: center;
     justify-content: center;
     gap: 120px;
+    margin-bottom: 80px;
 }
 
 .chart h2 {
@@ -434,6 +450,7 @@ td {
     padding: 10px 30px;
     color: rgba(255, 255, 255, 0.5);
 }
+
 th {
     border: 1px solid rgba(255, 255, 255, 0.5);
     padding: 10px 30px;
@@ -447,6 +464,7 @@ th {
     margin-bottom: 14px;
     font-size: 28px;
 }
+
 .calculation p {
     color: rgba(255, 255, 255, 0.6);
     font-family: Inter;
@@ -459,7 +477,7 @@ th {
 
 .two-input input {
     width: 275px;
-    height: 2.1rem; 
+    height: 2.1rem;
     padding: 5px 10px;
     margin: 10px;
     border: none;
@@ -467,9 +485,11 @@ th {
     color: rgba(255, 255, 255, 0.6);
     background: rgba(255, 255, 255, 0.1);
 }
+
 ::placeholder {
     color: rgba(255, 255, 255, 0.6);
 }
+
 .two-input select {
     padding: 10px 10px;
     width: 298px;
@@ -480,32 +500,39 @@ th {
     border-radius: 10px;
     background: rgba(255, 255, 255, 0.1);
 }
+
 .last-option {
     display: flex;
     flex-direction: column;
 }
+
 .last-option select {
     padding: 10px 10px;
     color: rgba(255, 255, 255, 0.6);
-    width: 61px;
+    width: 620px;
     height: 3rem;
     margin: 10px;
     border: none;
     border-radius: 10px;
     background: rgba(255, 255, 255, 0.1);
 }
+
 .calculation-form .submit {
-    width: 224px;
+    width: 220px;
     height: 54px;
     background-color: #E6533C;
     color: white;
+    font-family: Inter;
+    font-size: 1.2rem;
+    font-weight: 600;
     margin-left: 10px;
     margin-top: 20px;
     border-radius: 50px;
     border: none;
 }
+
 footer {
-    margin-top: 80px;
+    margin-top: 0px;
     height: 489px;
     background: rgba(255, 255, 255, 0.1);
     display: flex;
@@ -520,11 +547,13 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
+
 }
+
 .footer-content .footer-logo {
     width: 200px;
 }
+
 .footer-logo h2 {
     font-family: Inter;
     font-size: 60px;
@@ -538,19 +567,21 @@ footer {
     width: 190%;
 }
 
-.list-one h3{
+.list-one h3 {
     color: white;
     margin-bottom: 20px;
 }
+
 .list-one p {
     color: rgba(255, 255, 255, 0.5);
     margin-bottom: 12px;
 }
 
-.list-two h3{
+.list-two h3 {
     color: white;
     margin-bottom: 20px;
 }
+
 .list-two p {
     color: rgba(255, 255, 255, 0.5);
     margin-bottom: 12px;
@@ -561,6 +592,270 @@ footer hr {
     border: 2px solid rgba(255, 255, 255, 0.1);
     margin-bottom: 30px;
 }
+
 footer p {
     color: rgba(255, 255, 255, 0.5);
+}
+
+
+
+@media screen and (max-width: 576px) {
+  
+    .header-container {
+        width: 100%;
+    }
+
+    nav {
+
+        gap: 270px;
+        padding-top: 50px;
+        
+        padding-left: 0%;
+        padding-right: 0%;
+       
+    }
+    nav .nav-hamburger-menu {
+        margin-right: 130px;
+    }
+
+    .logo {
+        font-size: 1.6rem;
+        margin-left: 25px;
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    .nav-hamburger-menu {
+        display: block;
+        color: white;
+        margin-top: 20px;
+        margin-left: 70px;
+    }
+
+    .hero-container {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .hero-text-btn {
+        margin-left: 25px;
+    }
+    .button {
+        width: 250px;
+        height: 54px;
+        padding: 16px 30px 16px 30px;
+        border-radius: 42px;
+    }
+
+    .hero-img-btn {
+        margin-left: 120px;
+    }
+
+    .hero-title {
+        margin-top: 60px;
+        font-size: 3rem;
+        line-height: 55px;
+    }
+
+    .hero-para {
+        width: 90%;
+        font-size: 1rem;
+    }
+
+    .shape{
+        font-size: 5rem;
+    }
+
+    .tutorial {
+        top: 42%;
+    }
+
+    .Five-hundred-plus {
+        margin-top: -10%;
+
+    }
+
+    .second-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .third-section-container {
+        width: 100%;
+        margin-bottom: 80px;
+    }
+
+    .third-section {
+        flex-direction: column;
+        height: 531px;
+        width: 90%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .third-section .details h1 {
+        font-size: 2rem;
+    }
+
+    .third-section .details p {
+        width: 90%;
+    }
+
+    .third-section .details button {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .third-section .img {
+        width: 90%;
+    }
+
+    .extra-section-content .img {
+        height: 350px;
+    }
+
+    .extra-section-content {
+        flex-direction: column-reverse;
+        height: 580px;
+        gap: 30px;
+        /* border: none; */
+        padding-left: 35px;
+    }
+    .extra-section-content button {
+        width: 215px;
+        font-size: 1.1rem;
+        margin-bottom: 20px;
+    }
+
+    .fourth-section-content {
+        margin-left: 25px;
+    }
+
+    .fourth-section-content h1 {
+        font-size: 2rem;
+    }
+
+    .fourth-section-content p {
+        width: 90%;
+    }
+
+    .fifth-section-container {
+        flex-direction: column;
+        height: 1000px;
+        align-items: flex-start;
+        gap: 0px;
+    }
+    .calculation-form .submit {
+        width: 218px;
+        font-size: 1.2rem;
+
+    }
+
+    .chart {
+        margin-left: 25px;
+    }
+
+    .calculation {
+        margin-left: 10px;
+    }
+
+    .calculation p {
+        width: 70%;
+    }
+
+    .two-input input {
+        width: 235px;
+        height: 48px;
+    }
+
+    .two-input {
+        display: flex;
+    }
+
+    .two-input select {
+        width: 250px;
+        height: 60px;
+    }
+
+    .last-option select {
+        width: 93%;
+        height: 60px;
+    }
+    .sixth-section-container p {
+        width: 80%;
+        margin-left: 55px;
+    }
+    .meet-team-img-one, .meet-team-img-two {
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .meet-team-img .img {
+        width: 400px;
+        height: 320px;
+    }
+
+    footer {
+        height: 850px;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        width: 100%;
+        align-items: flex-start;
+        margin-bottom: 0px;
+    }
+
+    .footer-logo h2 {
+        font-size: 70px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        margin-top: 40px;
+    }
+
+    .footer-logo p {
+        width: 170%;
+    }
+
+    footer p {
+        margin-left: 20px;
+        margin-bottom: 30px;
+    }
+
+    .list-one,
+    .list-two,
+    .list-two h3,
+    .list-one h3 {
+        margin-left: 10px;
+    }
+
+    .list-two h3,
+    .list-one h3 {
+        font-size: 1.8rem;
+        margin-bottom: 30px;
+    }
+
+    .list-one p {
+        margin-bottom: 20px;
+        margin-left: 10px;
+        font-size: 1.3rem;
+    }
+
+    .list-two p {
+        font-size: 1.3rem;
+        margin-left: 10px;
+    }
+
+    footer hr {
+        margin-top: 50px;
+        width: 92%;
+        text-align: left;
+    }
+
+    footer .copiright {
+        width: 100%;
+        text-align: left;
+    }
 }
